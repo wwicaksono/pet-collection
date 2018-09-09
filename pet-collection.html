@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise</title>
+  <style>
+    table{
+      width: 100%;
+    }
+    thead{
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    img{
+      width: 70%;
+    }
+    .pet-name{
+      text-align:center;
+      background-color: palegreen; color:orangered;
+    }
+    .col2{
+      width: 50%;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  List of my lovely pet:
+  <ul>
+    <li><a href="#cat">Tom</a></li>
+    <li><a href="#turtle">Hockey Pockey</a></li>
+  </ul>
+  <table border=1>
+    <thead>
+      <tr>
+        <td colspan="2" style="width: 50%;">
+          <h2>Image</h2>
+        </td>
+        <td style="width: 50%;">
+          <h2>Description</h2>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="cat">
+        <td colspan="3" class="pet-name"><h3><strong>CAT</strong></h3></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <figure>
+              <img src="images/cat.jpeg" alt="My first cat">
+              <figcaption>
+                This is Tom
+              </figcaption>
+          </figure>
+        </td>
+        <td>
+          <h3>Fur</h3>
+          <ul>
+            <li>Brown</li>
+            <li>Smooth</li>
+          </ul>
+          <h3>Habit</h3>
+          <ul>
+            <li>Sleep <sub><i>10 hours a day!</i></sub></li>
+            <li>Eat</li>
+            <li>Play ball</li>
+          </ul>
+          <h3>Favourite Food</h3>
+          <ol>
+            <li>Raw Tuna</li>
+            <li>Meat</li>
+            <li><mark>Cooked fish</mark> </li>
+            <li>Drumstick</li>
+            <li><del>Cucumber</del></li>
+          </ol>
+        </td>
+      </tr>
+      <tr id="turtle">
+        <td colspan="3" class="pet-name"><h3><strong>Turtle</strong></h3></td>
+      </tr>
+      <tr>
+        <td>
+          <figure>
+              <img src="images/turtle.jpg" alt="Hockey Pockey images">
+              <figcaption>
+                Hockey Pockey in pose
+              </figcaption>
+          </figure>
+        </td>
+        <td>
+          <figure>
+              <img src="images/turtle.jpg" alt="Hockey Pockey images">
+              <figcaption>
+                Hockey Pockey in pose
+              </figcaption>
+          </figure>
+        </td>
+        <td rowspan="2">
+          <h3>Shell</h3>
+          <ul>
+            <li>Green - Yellow</li>
+            <li>Hard</li>
+          </ul>
+          <h3>Character</h3>
+          <ul>
+            <li>Shy</li>
+            <li>Quiet</li>
+            <li>Love to hide</li>
+            <li>Greedy</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+          <td>
+            <figure>
+                <img src="images/turtle.jpg" alt="Hockey Pockey images">
+                <figcaption>
+                  Hockey Pockey in pose
+                </figcaption>
+            </figure>
+          </td>
+          <td>
+            <figure>
+                <img src="images/turtle.jpg" alt="Hockey Pockey images">
+                <figcaption>
+                  Hockey Pockey in pose
+                </figcaption>
+            </figure>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+</body>
+</html>
