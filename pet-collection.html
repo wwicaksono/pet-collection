@@ -4,6 +4,9 @@
 <head>
   <title>Exercise</title>
   <style>
+    body{
+      margin:0;
+    }
     table{
       width: 100%;
     }
@@ -19,14 +22,44 @@
       text-align:center;
       background-color: palegreen; color:orangered;
     }
+    nav{
+      margin: 0;
+      height: 50px;
+      width: 100%;
+    }
+    nav ul{
+      margin: 0;
+      height: 50px;
+      /*padding: 10px 20px;*/
+    }
+    nav ul li {
+      list-style-type: none;
+      display: table-cell;
+      vertical-align: middle;
+      height: 50px;
+      width: 150px;
+    }
+    footer{
+      width: 100%;
+      display: table;
+    }
+    .footer{
+      height: 40px;
+      width: 100%;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
-  List of my lovely pet:
-  <ul>
-    <li><a href="#cat">Tom</a></li>
-    <li><a href="#turtle">Hockey Pockey</a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="pet-collection-home.html">Home</a></li>
+      <li><a href="#cat">Tom</a></li>
+      <li><a href="#turtle">Hockey Pockey</a></li>
+    </ul>
+  </nav>
   <table border=1>
     <thead>
       <tr>
@@ -128,5 +161,8 @@
         </tr>
     </tbody>
   </table>
+  <footer>
+    <div class="footer">Copyright &copy; 2018 - Wisnu Wicaksono</div>
+  </footer>
 </body>
 </html>
